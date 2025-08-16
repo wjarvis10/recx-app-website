@@ -6,7 +6,7 @@ import Terms from "./pages/Terms";
 /** ---------- Buttons ---------- */
 const AppStoreButton: React.FC = () => (
   <a
-    href="#" // Replace with your App Store link
+    href="https://apps.apple.com/us/app/recx/id6749241895"
     className="inline-flex items-center justify-center rounded-2xl border border-edge bg-white px-5 py-3 text-sm font-semibold shadow-soft hover:shadow transition"
     aria-label="Download on the App Store"
   >
