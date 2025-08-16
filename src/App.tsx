@@ -47,7 +47,7 @@ const Home: React.FC = () => {
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center gap-3">
-              <img src="/recx-logo.png" alt="Recx" className="h-8 w-8" />
+              <img src="/recx-logo.png" alt="Recx" className="h-8" />
               <h1 className="text-2xl text-primary font-crimson font-semibold">
                 Recx
               </h1>
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
       <footer className="border-t border-edge">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <img src="/recx-logo.svg" alt="Recx" className="h-7 w-7" />
+            <img src="/recx-logo.png" alt="Recx" className="h-8" />
             <span className="text-sm text-gray-600">
               © {new Date().getFullYear()} Recx
             </span>
