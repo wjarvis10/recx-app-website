@@ -48,7 +48,9 @@ const Home: React.FC = () => {
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center gap-3">
               <img src="/recx-logo.svg" alt="Recx" className="h-8 w-8" />
-              <h1 className="text-lg font-crimson">Recx</h1>
+              <h1 className="text-2xl text-primary font-crimson font-semibold">
+                Recx
+              </h1>
             </div>
             <div className="hidden sm:flex items-center gap-3">
               <AppStoreButton />
