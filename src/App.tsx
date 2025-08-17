@@ -73,7 +73,6 @@ const Home: React.FC = () => {
                 from your friends. Recx makes finding your next favorite spot
                 simple, personal, and reliable.
               </p>
-              <p>Hello World</p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <AppStoreButton />
                 <PlayStoreSoon />
