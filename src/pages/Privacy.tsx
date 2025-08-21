@@ -7,13 +7,13 @@ const Privacy: React.FC = () => {
         Recx Mobile Privacy Policy
       </h1>
       <p className="mt-2 text-sm text-gray-600">
-        Effective Date: August 1, 2025
+        Effective Date: August 21, 2025
       </p>
 
       <section className="mt-8 space-y-4 text-gray-800">
         <h2 className="text-xl font-semibold text-primary">1. Overview</h2>
         <p>
-          This Privacy Policy explains how Recx (“we”, “us”, “our”) collects,
+          This Privacy Policy explains how Recx (“we,” “us,” or “our”) collects,
           uses, and protects your information when you use our mobile
           application. By using Recx, you agree to this Policy.
         </p>
@@ -21,58 +21,94 @@ const Privacy: React.FC = () => {
         <h2 className="mt-8 text-xl font-semibold text-primary">
           2. Information We Collect
         </h2>
+        <p>We collect the following categories of information:</p>
         <ul className="list-disc pl-6 space-y-2">
           <li>
             <span className="font-medium">Profile Information:</span> first
             name, last name, phone number, email, optional profile image,
-            account creation date/time, username, current city (entered
-            manually), latitude/longitude (entered manually), biography.
+            account creation date/time, username, current city (entered manually
+            or derived from device location), latitude/longitude (entered
+            manually or, with your consent, obtained via device GPS), biography.
           </li>
           <li>
-            <span className="font-medium">User‑Generated Content:</span>{" "}
+            <span className="font-medium">User-Generated Content:</span>{" "}
             recommendations, friend connections, comments, likes, photos, and
             places added via Google Places Autocomplete.
           </li>
           <li>
-            <span className="font-medium">Verification Data:</span> one‑time
-            passwords (OTPs) for account sign‑up and password reset.
+            <span className="font-medium">Verification Data:</span> one-time
+            passwords (OTPs) for account sign-up and password reset.
           </li>
         </ul>
 
         <h2 className="mt-8 text-xl font-semibold text-primary">
           3. How We Use Your Information
         </h2>
-        <p>
-          We use your information to create and manage accounts, authenticate
-          and verify users, send OTPs for account security, provide and improve
-          app features, and facilitate user interactions. We do not sell your
-          personal information.
-        </p>
+        <p>We use your information to:</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Create and manage your account</li>
+          <li>Authenticate and verify users</li>
+          <li>Send OTPs via SMS or email for account security</li>
+          <li>Provide and improve app features</li>
+          <li>
+            Facilitate user interactions (friend requests, comments, likes)
+          </li>
+          <li>
+            Filter and sort recommendations by proximity, and personalize the
+            recommendations you see based on your location
+          </li>
+          <li>
+            If you submit a report about another user or content, we collect and
+            store the details of the report and may share relevant information
+            with the reported user as necessary to resolve the matter, in
+            compliance with applicable law.
+          </li>
+        </ul>
+        <p>We do not sell your personal information.</p>
 
         <h2 className="mt-8 text-xl font-semibold text-primary">
-          4. Third‑Party Services
+          4. Third-Party Services
         </h2>
         <p>
-          We share limited data with Supabase (authentication, database,
-          storage), Twilio (SMS OTP delivery), Google Places API (place
-          information), and Expo (build tools), only as necessary to operate the
-          App.
+          We share limited data with service providers only as necessary to
+          operate the App:
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Supabase – authentication, database, storage</li>
+          <li>Twilio – SMS delivery of OTPs</li>
+          <li>Google Places API – retrieving place information</li>
+          <li>Expo – app compilation/build infrastructure</li>
+        </ul>
+        <p>
+          These providers process your data in accordance with their own privacy
+          policies.
+        </p>
+        <p>
+          Location Services are handled locally on devices. We do not currently
+          sell or share location data with third parties.
         </p>
 
         <h2 className="mt-8 text-xl font-semibold text-primary">
           5. Data Retention
         </h2>
         <p>
-          We retain your information while your account is active or as needed
-          to provide services. OTP‑related data is deleted shortly after use.
+          We retain your information for as long as your account is active or as
+          needed to provide our services. OTP-related data is deleted shortly
+          after use.
+        </p>
+        <p>
+          GPS location data is not stored permanently; it is only used in real
+          time for filtering recommendations. Profile location (if entered
+          manually) is retained until you update or delete it.
         </p>
 
         <h2 className="mt-8 text-xl font-semibold text-primary">
           6. Data Security
         </h2>
         <p>
-          We use reasonable technical and organizational measures to protect
-          your information from unauthorized access, disclosure, or destruction.
+          We implement reasonable technical and organizational measures to
+          protect your information from unauthorized access, disclosure, or
+          destruction.
         </p>
 
         <h2 className="mt-8 text-xl font-semibold text-primary">
@@ -88,13 +124,21 @@ const Privacy: React.FC = () => {
           8. Your Rights
         </h2>
         <p>
-          Depending on your location, you may have rights to access, correct,
-          delete, or request a copy of your data, and withdraw consent for
-          certain processing. Contact us at{" "}
+          Depending on your location, you may have rights to: access, correct,
+          or delete your information; request a copy of your data; withdraw
+          consent for certain processing.
+        </p>
+        <p>
+          You can revoke Recx’s access to your device’s GPS at any time in your
+          mobile device settings. If you do so, the App will instead rely on
+          your manually entered profile location.
+        </p>
+        <p>
+          To exercise these rights, email{" "}
           <a href="mailto:recxapphelp@gmail.com" className="underline">
             recxapphelp@gmail.com
-          </a>{" "}
-          to exercise these rights.
+          </a>
+          .
         </p>
 
         <h2 className="mt-8 text-xl font-semibold text-primary">
@@ -116,7 +160,7 @@ const Privacy: React.FC = () => {
         </p>
 
         <p className="mt-8 text-sm text-gray-500">
-          Last updated: August 1, 2025
+          Last updated: August 21, 2025
         </p>
       </section>
     </main>
